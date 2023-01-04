@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import view.Booking;
 import view.Customer;
-import view.dbconnection;
 
 public class Main {
 	public static dbconnection connection=new dbconnection();
