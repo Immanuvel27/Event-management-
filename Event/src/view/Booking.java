@@ -1,8 +1,10 @@
-package event;
+package view;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.Scanner;
+
+import controller.Main;
 
 public class Booking{
 	Scanner cin=new Scanner(System.in);

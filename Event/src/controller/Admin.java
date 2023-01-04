@@ -1,16 +1,18 @@
-package event;
+package controller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Scanner;
 
-public class Admin extends Account{
+import view.Account;
+import view.Eventspojo;
+
+public class Admin{
 	Scanner cin=new Scanner(System.in);
 	Eventspojo e=new Eventspojo();
 	
 	
-	@Override
 	boolean login() {
 		boolean status=false;
 		String UT="admin";
@@ -43,7 +45,7 @@ public class Admin extends Account{
 		return(status);
 	}
 
-	@Override
+	
 	void logout() {
 		// TODO Auto-generated method stub
 		Main.id=0;

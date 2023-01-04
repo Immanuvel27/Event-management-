@@ -1,4 +1,4 @@
-package event;
+package view;
 
 public abstract class Account {
 	

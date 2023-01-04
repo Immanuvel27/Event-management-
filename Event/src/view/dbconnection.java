@@ -1,4 +1,4 @@
-package event;
+package view;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

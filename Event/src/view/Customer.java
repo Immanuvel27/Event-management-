@@ -1,10 +1,12 @@
-package event;
+package view;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Scanner;
 
 import org.json.JSONObject;
+
+import controller.Main;
 
 public class Customer extends Account {
 	JSONObject object=new JSONObject();
@@ -155,7 +157,7 @@ public class Customer extends Account {
 		login();
 	}
 	
-void bookedsts() {
+public void bookedsts() {
 	try {
 		Connection con=Main.connection.dbco();
 		PreparedStatement stmt=con.prepareStatement("select message,ename,status from events e,booking b where e.eid=b.eventid and userid=?");

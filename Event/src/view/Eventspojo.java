@@ -1,4 +1,4 @@
-package event;
+package view;
 
 public class Eventspojo {
 private String ename;

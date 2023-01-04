@@ -1,10 +1,14 @@
-package event;
+package controller;
 
 import java.util.Scanner;
 
+import view.Booking;
+import view.Customer;
+import view.dbconnection;
+
 public class Main {
-	static dbconnection connection=new dbconnection();
-	static int id;
+	public static dbconnection connection=new dbconnection();
+	public static int id;
 	public static void main(String[] args) {
 		Scanner cin=new Scanner(System.in);
 		System.out.println(" ----------------------------------");
