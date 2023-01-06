@@ -4,7 +4,6 @@ EVENT MANAGEMENT.
 Register:
 customer.
 
-
 Login:
 Admin,
 Customer.
